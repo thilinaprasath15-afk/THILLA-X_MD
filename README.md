@@ -44,7 +44,7 @@ Click the "Fork Repo" button above or [fork here](https://github.com/BADBOI-v1/s
 Link your WhatsApp account using the links below:
 
 <div align="center">
-  <a href="https://snowbird-pairing.onrender.com/">
+  <a href="https://mega-pair-site-925f64140961.herokuapp.com/pair">
     <img src="https://img.shields.io/badge/Generate%20Pairing%20Code-green?style=for-the-badge" alt="Generate Pairing Code"/>
   </a>
 </div>
