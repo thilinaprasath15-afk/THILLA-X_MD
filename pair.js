@@ -18,7 +18,7 @@ const {
 Boom
 } = require('@hapi/boom')
 const PhoneNumber = require('awesome-phonenumber')
-let phoneNumber = "2349020090826";
+let phoneNumber = "94767208992";
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code");
 const useMobile = process.argv.includes("--mobile");
 const readline = require("readline");
@@ -63,7 +63,7 @@ const { version, isLatest } = await fetchLatestBaileysVersion();
 const {
 state,
 saveCreds
-} = await useMultiFileAuthState('./IGRIS-XD/pairing/' + cleanPhoneNumber);
+} = await useMultiFileAuthState('./THILLA-X-MD/pairing/' + cleanPhoneNumber);
 
 const bad = makeWASocket({
     logger: pino({ level: "silent" }),
@@ -104,13 +104,13 @@ code = code?.match(/.{1,4}/g)?.join("-") || code;
 console.log(chalk.green(`✅ Pairing code generated for ${cleanPhoneNumber}: ${code}`));
 
 // Create pairing directory if it doesn't exist
-const pairingDir = './IGRIS-XD/pairing/';
+const pairingDir = './THILLA-X-MD/pairing/';
 if (!fs.existsSync(pairingDir)) {
     fs.mkdirSync(pairingDir, { recursive: true });
 }
 
 fs.writeFile(
-  './IGRIS-XD/pairing/pairing.json',  // Path of the file where it will be saved
+  './THILLA-X-MD/pairing/pairing.json',  // Path of the file where it will be saved
   JSON.stringify({"code": code, "number": cleanPhoneNumber, "jid": fullJid}, null, 2),  // Include number and jid info
   'utf8',
   (err) => {
@@ -420,7 +420,7 @@ bad.ev.on("connection.update", async (update) => {
         } else if (reason === DisconnectReason.connectionReplaced) {
             // No action needed as per original code
         } else if (reason === DisconnectReason.loggedOut) {
-            deleteFolderRecursive(`./IGRIS-XD/pairing/${cleanPhoneNumber}`);
+            deleteFolderRecursive(`./THILLA-X-MD/pairing/${cleanPhoneNumber}`);
             console.log(chalk.bgRed(`${cleanPhoneNumber} disconnected from using rentbot`));
         } else if (reason === DisconnectReason.restartRequired) {
             startpairing(fullJid);
