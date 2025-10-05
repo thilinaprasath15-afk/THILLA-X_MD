@@ -1,6 +1,6 @@
 /**
-   * Create By king Badboi .
-   * Contact Me on wa.me/2348140825959
+   * Create By ADMIN THILLA .
+   * Contact Me on wa.me/94767208992
 */
 // Import required modules
 const fs = require('fs');
