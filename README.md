@@ -20,7 +20,7 @@ A powerful and customizable **WhatsApp Multi-Device Bot** built using the Bailey
 
 <div align="center">
   <a href="https://chat.whatsapp.com/D29rmEEirjr6Ic6Blxyja3?mode=ems_copy_t">
-    <img src="https://img.shields.io/badge/Follow%20WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Follow WhatsApp Channel"/>
+    <img src="https://img.shields.io/badge/Follow%20WhatsApp%20group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Follow WhatsApp group"/>
   </a>
   <a href="https://wa.me/94767208992?text=Hi%20I%20want%20to%20report%20an%20error%20in%20THILLA%20X%20MD">
     <img src="https://img.shields.io/badge/Report%20Error%20on%20WhatsApp-EA4335?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Report Error"/>
